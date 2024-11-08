@@ -31,3 +31,16 @@ I found this to work:
 echo '#!/bin/bash' > /usr/local/bin/hey
 echo 'echo "what'\''s up"' >> /usr/local/bin/hey
 ```
+### Result
+First iteration worked. Was able to get the response we wanted
+**Note**: For full disclosure:
+due to the sake of saving time, I used ChatGPT to help me piece this together.
+
+### Refinement
+Refined script to be reusable. 
+Added functions:
+- Check to see if "hey" execuable is present in /usr/local/bin/
+- Identify logged-in user, chmod 750 so that only the logged in user and root are allowed to use executable
+- Added echos to track progress of script
+- added exit codes
+- added comments for Jamf Config
