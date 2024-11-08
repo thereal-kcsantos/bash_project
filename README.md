@@ -22,3 +22,12 @@ While still using the zsh/bash profile aliases, try to have the "hey" command ru
 Testing doesn’t seem to work. Regardless of how I try to comment out the apostrophe in the statement, it seems that it is not translating well when outputting it to the terminal, and in return, not giving the output of “What’s up”. Also, code looks messy and ugle with all the "escapes"
 
 Need to think more... this feels like I am going about it in a very complicated way, more complicated than it needs to be.
+
+
+## Attempt 2
+Aliases didn't work, so the other way I'll try is by creating a executable in `/usr/local/bin/`
+I found this to work:
+```
+echo '#!/bin/bash' > /usr/local/bin/hey
+echo 'echo "what'\''s up"' >> /usr/local/bin/hey
+```
