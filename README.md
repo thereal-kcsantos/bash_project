@@ -18,5 +18,7 @@ Not so great, can't escape the apostrophe in What's up. Getting response of "'wh
 
 ## Attempt 1.1
 While still using the zsh/bash profile aliases, try to have the "hey" command run a script that creates another script so I can use something like "alias=hey "/bin/bash hey_response.sh""
+### Result
+Testing doesn’t seem to work. Regardless of how I try to comment out the apostrophe in the statement, it seems that it is not translating well when outputting it to the terminal, and in return, not giving the output of “What’s up”. Also, code looks messy and ugle with all the "escapes"
 
-
+Need to think more... this feels like I am going about it in a very complicated way, more complicated than it needs to be.
