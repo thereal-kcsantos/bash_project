@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###########################################################################
+### THIS DOES NOT WORK. KEEPING THIS IN THE REPO FOR HISTORICAL RECORDS ###
+###########################################################################
+
+
+
 # Define the alias name, the response message, and the installation directory for the response script
 TARGET_ALIAS="hey"
 ALIAS_RESPONSE="what's up"  # Customize the alias response message here
